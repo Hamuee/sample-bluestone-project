@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "axios": "^0.24.0",
-        "bluestone": "^0.4.4",
+        "bluestone": "^0.4.7",
         "mocha": "^9.1.3",
         "puppeteer": "^10.2.0",
         "puppeteer-core": "^10.2.0",
