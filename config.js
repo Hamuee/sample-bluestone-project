@@ -1,6 +1,6 @@
 module.exports = {
     puppeteer: {
-        "executablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        // "executablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
         headless: false,
         defaultViewport: null,
         args: [
