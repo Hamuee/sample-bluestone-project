@@ -1,3 +1,4 @@
+let path = require('path')
 module.exports = {
     puppeteer: {
         // "executablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
@@ -8,7 +9,11 @@ module.exports = {
             '--disable-web-security',
             '--disable-features=IsolateOrigins,site-per-process',
             '--window-size=1920,1040',
-        ]
+        ],
+        ignoreDefaultArgs: ['--disable-extensions']
     },
+    runtime: {
+        bluestoneServer: process.env.BLUESTONE_HOST || ''
+    }
 
 }
