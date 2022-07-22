@@ -73,5 +73,15 @@ module.exports = {
         locator: ['.djs-hit'],
         screenshot: 'componentPic/DrawElement_1.png',
         displayName: 'DrawElement 1'
+    },
+    'Link NewWorkflow 159': {
+        locator: ['//SPAN[text()=\'NewWorkflow 159\']'],
+        screenshot: 'componentPic/Link_NewWorkflow_159.png',
+        displayName: 'Link NewWorkflow 159'
+    },
+    'DrawElementItem Remove': {
+        locator: ['//DIV[@title=\'Remove\']'],
+        screenshot: 'componentPic/DrawElementItem_Remove.png',
+        displayName: 'DrawElementItem Remove'
     }
 };
