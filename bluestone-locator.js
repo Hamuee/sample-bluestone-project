@@ -38,5 +38,25 @@ module.exports = {
         locator: ['//P[text()=\'Double-click to edit a todo\']'],
         screenshot: 'componentPic/Double_click_to_edit_a_todo_text.png',
         displayName: 'Double-click to edit a todo text'
+    },
+    'Txt User Name': {
+        locator: ['#username'],
+        screenshot: 'componentPic/Txt_User_Name.png',
+        displayName: 'Txt User Name'
+    },
+    'Txt Password': {
+        locator: ['#mat-input-1'],
+        screenshot: 'componentPic/Txt_Password.png',
+        displayName: 'Txt Password'
+    },
+    'Btn Login': {
+        locator: ['#signInBtn'],
+        screenshot: 'componentPic/Btn_Login.png',
+        displayName: 'Btn Login'
+    },
+    'Opt Home': {
+        locator: ['//SPAN[text()=\'Home\']'],
+        screenshot: 'componentPic/Opt_Home.png',
+        displayName: 'Opt Home'
     }
 };
