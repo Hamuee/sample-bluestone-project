@@ -63,5 +63,10 @@ module.exports = {
         locator: ['//SPAN[text()=\'Workflow\']'],
         screenshot: 'componentPic/Opt_WorkFlow.png',
         displayName: 'Opt WorkFlow'
+    },
+    'Lynk NewWorkflow 161': {
+        locator: ['//SPAN[text()=\'NewWorkflow 161\']'],
+        screenshot: 'componentPic/Lynk_NewWorkflow_161.png',
+        displayName: 'Lynk NewWorkflow 161'
     }
 };
