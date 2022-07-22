@@ -58,5 +58,10 @@ module.exports = {
         locator: ['//SPAN[text()=\'Home\']'],
         screenshot: 'componentPic/Opt_Home.png',
         displayName: 'Opt Home'
+    },
+    'Opt WorkFlow': {
+        locator: ['//SPAN[text()=\'Workflow\']'],
+        screenshot: 'componentPic/Opt_WorkFlow.png',
+        displayName: 'Opt WorkFlow'
     }
 };
