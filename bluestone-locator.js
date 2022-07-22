@@ -83,5 +83,15 @@ module.exports = {
         locator: ['//DIV[@title=\'Remove\']'],
         screenshot: 'componentPic/DrawElementItem_Remove.png',
         displayName: 'DrawElementItem Remove'
+    },
+    'Btn Save': {
+        locator: ['.save-button-general'],
+        screenshot: 'componentPic/Btn_Save.png',
+        displayName: 'Btn Save'
+    },
+    'Btn Cancel': {
+        locator: ['.cdk-focused'],
+        screenshot: 'componentPic/Btn_Cancel.png',
+        displayName: 'Btn Cancel'
     }
 };
